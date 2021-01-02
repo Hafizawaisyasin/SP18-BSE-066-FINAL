@@ -1,7 +1,6 @@
 var express = require("express");
 var router = express.Router();
 const multer = require("multer");
-const sharp = require("sharp");
 const Product = require("../models/product");
 
 /* GET home page. */
